@@ -25,7 +25,7 @@ $(document).ready(function () {
         $("#sendShit").attr('value', 'Message Sent!');
         $("#sendShit").attr("disabled","disabled");
         $.ajax({
-           url: 'http://localhost:8081/api/users',
+           url: 'https://personalserver.herokuapp.com/api/users',
            type: 'POST',
            dataType: "json",
            data: {name:name1,email:email2,message:message3}, 
