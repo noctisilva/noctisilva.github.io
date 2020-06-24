@@ -2,6 +2,11 @@
 	font-size: 2em;
 }
 
+#youtube_link{
+	color: red;
+	font-weight: 800;
+}
+
 #filepic{
 }
 
@@ -10,7 +15,10 @@
 }
 
 #pdesc{
-
+	font-size: .8em;
+	text-align: left;
+	color: #000000;
+	font-weight: 500;
 }
 
 #resume{
